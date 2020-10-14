@@ -8,6 +8,8 @@ body {
     font-family: Helvetica, Arial, sans-serif;
   }
 
+/* Header*/
+
 header {
       padding: 20px 35px;
       background-color:#39a6b2;
@@ -41,6 +43,8 @@ header nav ul li a {
     font-size: 22px;
 }
 
+/* Footer*/
+
 footer {
     background: #fce138;
     width: 100%;
@@ -67,6 +71,8 @@ footer a {
 section {
     padding: 60px;
 }
+
+/* hero/jumbotron */
 
 .hero {
     background-image:url("../images/hero-bg.jpg");
