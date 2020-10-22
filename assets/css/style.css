@@ -408,7 +408,7 @@ footer a {
 }
 /*Service plan with grid section */
 .service-grid-container {
-  background: var(--primary-color);
+  background: lightyellow;
   width: 80%;
   display: grid;
   grid-template-columns: 1fr repeat(2, 4fr);
