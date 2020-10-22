@@ -63,6 +63,22 @@ header nav ul li a {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+header nav ul li a:hover {
+  background: #fce138;
+  color: #024e76;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+.hero-form button:hover {
+  background-color: #39a6b2;  
+}
+
+.contact-form button:hover {
+  color: #fce138;
+  background: #39a6b2;
+}
+
 /* Footer*/
 
 footer {
@@ -139,6 +155,17 @@ section {
     border-radius: 10px;
 }
 
+/* update existing rule with this declaration */
+.form-input {
+  background-color: rgba(255,255,255, 0.75);
+}
+
+/* create a new rule for focus state */
+.form-input:focus {
+  background-color: rgba(255,255,255, 1);
+  outline: none;
+}
+
 .hero-form label {
     margin: 0 5px;
 }
@@ -186,12 +213,16 @@ section {
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
-    border-bottom: 1px solid #39a6b2;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
   }
+
+  .step:not(:last-child) {
+    border-bottom: 1px solid #39a6b2;
+  }
+
   .section-title {
     font-size: 48px;
     color: #024e76;
@@ -342,8 +373,13 @@ section {
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
   }
 
+.contact-form input:focus, .contact-form textarea:focus {
+  background-color: rgba(255,255,255, 1);
+  outline: none;
+}
   .contact-form button {
     width: 100%;
     border: none;
@@ -355,6 +391,10 @@ section {
     border-radius: 10px;
   }
 
+  .contact-form button:hover {
+    color: #fce138;
+    background: #39a6b2;
+}
 
 /*Service Styles*/
 
